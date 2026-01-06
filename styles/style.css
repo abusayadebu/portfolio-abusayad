@@ -242,6 +242,47 @@ footer p{
     border: none;
     padding: 20px 10px;
     border-radius: 5px;
-
 }
 
+
+/* summary section style starts here */
+.summary-section{
+    max-width: 1140px;
+    margin: 100px auto;    
+}
+.summary-section h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+.container-of-summary{
+    display: flex;
+    gap: 70px;
+    padding: 50px 0px;
+}
+
+.resume-card{
+    margin: 20px 0px;
+}
+.container-of-summary h3{
+    font-size: 30px;
+    color: #474747;
+}
+.container-of-summary h4{
+    font-size: 20px;
+    color: #474747;
+}
+.container-of-summary h5{
+    font-size: 16px;
+    margin: 10px 0px;
+    color: #474747;
+}
+.container-of-summary p{
+    font-size: 16px;
+    margin: 10px 0px;
+    color: #474747;
+}
+
+.resume-btn{
+    text-align: center;
+}
