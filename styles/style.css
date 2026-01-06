@@ -1,0 +1,53 @@
+/* universal style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+/* font style */
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* header style here */
+/* shared styles */
+header{
+    background-color: #FFF8F3;
+    padding-top: 50px;
+}
+
+.orange-color{
+    color: #FD6E0A;
+}
+
+/* nav style here */
+.navbar{
+    width: 73%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container h2{
+    font-size: 40px;
+}
+
+
+ul li{
+    list-style: none;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: #474747;
+}
+ul{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+
+}
