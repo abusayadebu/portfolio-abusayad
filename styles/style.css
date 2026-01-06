@@ -11,6 +11,10 @@
   font-optical-sizing: auto;
 }
 
+body{
+    background-color: #f0f0f0;
+}
+
 /* header style here */
 /* shared styles */
 header{
@@ -145,4 +149,47 @@ ul{
 }
 .second-div h5{
     color: #757575;
+}
+
+
+/* ------------ */
+/* what do section */
+.what-do-section{
+    max-width: 1140px;
+    margin: 100px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.what-frist-div{
+    padding: 0px 130px;
+}
+.what-frist-div h3{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.what-frist-div p{
+    margin: 30px 0;
+    color: #474747;
+}
+
+.card-container {
+    max-width: 1140px;
+    display: flex;
+    gap: 20px;
+}
+.card-container div {
+    background-color: white;
+    padding: 30px;
+    text-align: start;
+    border-radius: 5px;
+    box-shadow: #FFF8F3;
+}
+.card-container div h5 {
+    margin: 5px 0px;
+}
+.card-container div p {
+    color: #474747;
+    margin: 5px 0px;
 }
