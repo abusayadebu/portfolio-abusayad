@@ -15,11 +15,34 @@
 /* shared styles */
 header{
     background-color: #FFF8F3;
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
     padding-top: 50px;
 }
 
 .orange-color{
     color: #FD6E0A;
+}
+
+.btn-one{
+    padding: 18px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border: none;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn-two{
+    padding: 18px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    font-weight: 600px;
+    font-weight: 500;
+    cursor: pointer;
 }
 
 /* nav style here */
@@ -49,5 +72,37 @@ ul{
     display: flex;
     gap: 50px;
     align-items: center;
+}
 
+/* banner section style starts here */
+#banner-section{
+    max-width: 1375px;
+    margin-left: 205px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-text-container{
+    max-width: 580px;
+}
+
+.banner-text-container h4{
+    font-size: 45px;
+    font-weight: 600px;
+    color: #474747;
+}
+.banner-text-container h3{
+    font-size: 85px;
+    font-weight: 800px;
+}
+.banner-text-container p{
+    color: #757575;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner-image-container img{
+    max-width: 584px;
+    vertical-align: middle;
 }
