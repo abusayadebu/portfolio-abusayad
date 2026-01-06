@@ -74,6 +74,7 @@ ul{
     align-items: center;
 }
 
+/* ------------------- */
 /* banner section style starts here */
 #banner-section{
     max-width: 1375px;
@@ -105,4 +106,43 @@ ul{
 .banner-image-container img{
     max-width: 584px;
     vertical-align: middle;
+}
+
+/* ------------ */
+/* about me section style here */
+.about-me{
+    max-width: 1140px;
+    margin: 100px auto;
+    background-color: #FFF8F3;
+    padding: 100px 130px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.first-div{
+    max-width: 825px;
+    margin: 0 auto;
+}
+
+.first-div p{
+    margin: 30px 0;
+    color: #474747;
+}
+.first-div h4{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.second-div{
+    max-width: 825px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-div p{
+    color: #474747;
+}
+.second-div h5{
+    color: #757575;
 }
