@@ -193,3 +193,55 @@ ul{
     color: #474747;
     margin: 5px 0px;
 }
+
+
+
+/* ---footer style here--- */
+footer{
+    width: 100%;
+    height: 780px;
+    margin: 0 auto;
+    padding: 130px 180px;
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF8F3;
+}
+
+footer h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+footer p{
+    color: #474747;
+    margin-bottom: 25px;
+}
+
+#name-input{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+    border: none;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+#email-input{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+    border: none;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+#text-area-input{
+    width: 100%;
+    height: 180px;
+    margin-bottom: 20px;
+    border: none;
+    padding: 20px 10px;
+    border-radius: 5px;
+
+}
+
